@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: .5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.search-bar{
+  background: rgb(238, 238, 238);
+  width: 89%;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.buttons button {
+  padding:0 8px;
+}
+
+.google-search {
+  
+  width: 317px;
+}
+
+footer {
+display: flex;
+width: 89%;
+margin-top: 2px;
+justify-content: center;
+align-items:center ;
+text-align: center;
+gap: 2px;
+
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 37%;
+  height: 76px;
+  background-color: rgb(126, 229, 218);
+}
+
+.second {
+  font-size: .83rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 19%;
+  height: 76px;
+  background-color: rgb(112, 204, 194);
+  
+}
+
+.third {
+  width: 44%;
+  font-size: .82rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 76px;
+  background-color: rgb(98, 179, 170);
+}
+
+.third .last button {
+padding: 0 8px;
+margin-right: 8px;
+}
+
+.container .copy {
+  margin-top:1rem ;
+}
